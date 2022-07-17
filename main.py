@@ -1,4 +1,4 @@
-"""Распознование лица в картинке"""
+"""Распознавание лиц на картинке"""
 # import cv2
 
 # face_cascade_db = cv2.CascadeClassifier(cv2.data.haarcascades+"haarcascade_frontalface_default.xml")
@@ -16,7 +16,7 @@
 # cv2.waitKey()
 
 
-"""Распознование лица и глаз в видео """
+"""Распознавание лиц и глаз на видео """
 import cv2
 
 face_cascade_db = cv2.CascadeClassifier(cv2.data.haarcascades+"haarcascade_frontalface_default.xml")
